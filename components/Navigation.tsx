@@ -15,7 +15,7 @@ const Navigation = () => {
     router.push("signin");
   };
   return (
-    <div className="navbar bg-white">
+    <div className="navbar bg-blue-300">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -73,11 +73,11 @@ const Navigation = () => {
           </ul>
         </div>
         <Link className="btn btn-ghost text-xl" href="/">
-          Scribble Sphere
+          Ali Blogs
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
+        <ul className="menu menu-horizontal">
           {isAuthenticated ? (
             ""
           ) : (
@@ -101,7 +101,7 @@ const Navigation = () => {
                     className="whitespace-no-wrap block py-2 px-5 first:rounded-t last:rounded-b dark:hover:bg-gray-700 md:hover:bg-gray-200"
                     href="/pages/services"
                   >
-                    Services
+                    Our Services
                   </Link>
                 </li>
                 <li>
@@ -109,7 +109,7 @@ const Navigation = () => {
                     className="whitespace-no-wrap block py-2 px-5 first:rounded-t last:rounded-b dark:hover:bg-gray-700 md:hover:bg-gray-200"
                     href="/pages/pricing"
                   >
-                    Pricing
+                    Our Pricing Policy
                   </Link>
                 </li>
                 <li>
@@ -117,7 +117,7 @@ const Navigation = () => {
                     className="whitespace-no-wrap block py-2 px-5 first:rounded-t last:rounded-b dark:hover:bg-gray-700 md:hover:bg-gray-200"
                     href="/pages/aboutus"
                   >
-                    About us
+                    AboutUs
                   </Link>
                 </li>
               </ul>

@@ -7,8 +7,8 @@ import Index from "@/components/blogs/content/Index";
 
 export default function Home() {
   return (
-    <main className="">
-      <div className='bg-white'>
+    <main className="w-full min-h-screen bg-slate-500">
+      <div className="bg-blue-600 mb-2">
         <Navigation />
         <HeroSection />
         <Features />

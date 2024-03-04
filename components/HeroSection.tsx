@@ -1,5 +1,5 @@
 import React from "react";
-import MainImage from "../images/hero (1).webp";
+import MainImage from "../images/camera-front.webp";
 import Image from "next/image";
 
 const HeroSection = () => {
@@ -7,14 +7,14 @@ const HeroSection = () => {
     <div className="bg-white mt-12">
       <div className="px-3 mx-auto max-w-full pb-10 text-center md:pb-16 ">
         <h1 className="leading-tighter font-heading mb-6 text-4xl font-bold tracking-tighter md:text-5xl lg:text-6xl">
-          Explore the world of blogging with Next.js + Tailwind CSS
+          Looking for great Blogs. Here’s a list of some of the best blog
         </h1>
         <div className="mx-auto max-w-7xl">
           <p className="mb-6 text-xl font-normal text-gray-600 dark:text-slate-400">
-            ScribbleSphere is a polished template crafted for your blogging
-            journey using Next.js + Tailwind CSS. It incorporates industry best
-            practices, ensuring excellence in SEO, Accessibility, Dark Mode, and
-            superior Page Speed, along with optimized image handling.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse,
+            aperiam in. Veritatis dicta delectus facilis eligendi, eum optio
+            dignissimos iste reiciendis repellendus ad ut asperiores autem harum
+            labore eveniet. Architecto!
           </p>
         </div>
         <div className="relative m-auto max-w-5xl">
