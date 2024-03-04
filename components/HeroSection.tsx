@@ -6,16 +6,16 @@ const HeroSection = () => {
   return (
     <div className="bg-white mt-12">
       <div className="px-3 mx-auto max-w-full pb-10 text-center md:pb-16 ">
-        <h1 className="leading-tighter font-heading mb-6 text-4xl font-bold tracking-tighter md:text-5xl lg:text-6xl">
-          Looking for great Blogs. Here’s a list of some of the best blog
+        <h1 className="leading-tighter font-heading mb-6 text-4xl font-bold tracking-tighter md:text-5xl lg:text-6xl pt-14 pb-12">
+          Ali Blogs
         </h1>
         <div className="mx-auto max-w-7xl">
-          <p className="mb-6 text-xl font-normal text-gray-600 dark:text-slate-400">
+          {/* <p className="mb-6 text-xl font-normal text-gray-600 dark:text-slate-400">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse,
             aperiam in. Veritatis dicta delectus facilis eligendi, eum optio
             dignissimos iste reiciendis repellendus ad ut asperiores autem harum
             labore eveniet. Architecto!
-          </p>
+          </p> */}
         </div>
         <div className="relative m-auto max-w-5xl">
           <Image

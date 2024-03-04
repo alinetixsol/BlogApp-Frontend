@@ -3,7 +3,7 @@ import Cards from "./Cards";
 
 const Features = () => {
   return (
-    <div className="mb-4">
+    <div className="mb-4 bg-slate-300">
       <div className="mb-6 mx-auto md:mb-12 text-center">
         <p className="text-base font-semibold uppercase tracking-wide text-primary-600 dark:text-primary-200">
           Features

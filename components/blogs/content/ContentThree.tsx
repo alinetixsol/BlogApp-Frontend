@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const ContentThree = () => {
   return (
-    <div>
+    <div className="bg-slate-300">
       <section className="relative not-prose scroll-mt-[72px]">
         <div className="absolute inset-0 bg-transparent"></div>
         <div className="relative mx-auto px-4 md:px-6 py-12 md:py-16 lg:py-20 text-default max-w-6xl">
